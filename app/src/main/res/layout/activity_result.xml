@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_fec_act"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewFec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/point_blank" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_fec_nac"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/textViewFecNac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/point_blank" />
+
+
+    <TextView
+        android:id="@+id/age_analysis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/Result"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@color/primary_light"
+        android:textColor="@color/primary_text" />
+    <TableLayout
+        android:id="@+id/extra_information"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/age_analysis"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_height="wrap_content">
+        <TableRow android:padding="8dp">
+            <TextView
+                android:id="@+id/total_years"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"
+
+                android:text="@string/total_years"/>
+            <TextView
+                android:id="@+id/total_years_result"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"
+
+                android:text="@string/point_blank"/>
+        </TableRow>
+        <TableRow android:padding="8dp">
+            <TextView
+                android:id="@+id/total_months"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"
+
+                android:text="@string/total_months"/>
+            <TextView
+                android:id="@+id/total_months_result"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"
+
+                android:text="@string/point_blank"/>
+        </TableRow>
+        <TableRow android:padding="8dp">
+            <TextView
+                android:id="@+id/total_days"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/total_days"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/total_days_result"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/point_blank"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+
+
+
+
