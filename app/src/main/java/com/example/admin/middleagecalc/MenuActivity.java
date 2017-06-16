@@ -28,7 +28,7 @@ public class MenuActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Calculadora de Edad: Mostrar la edad de una persona basado en una fecha.", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

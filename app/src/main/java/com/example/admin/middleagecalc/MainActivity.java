@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
        // getSupportActionBar().setTitle(getIntent().getStringExtra(TITLE));
         //mDatePicker =  (DatePicker) findViewById(R.id.date_time);
 
-        getSupportActionBar().setTitle(getIntent().getStringExtra(TITLE));
+        getSupportActionBar().setTitle("Middle Age Calculator");
         mDatePicker =  (DatePicker) findViewById(R.id.date_time);
 
         findViewById(R.id.btn_calcular).setOnClickListener(this);
@@ -129,7 +129,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else
         {
-            Toast.makeText(this, edad_mayor + ": Ha sido la Mayor edad digitada.", Toast.LENGTH_SHORT).show();
+            if(edad_mayor > 0)
+            {
+                Toast.makeText(this, edad_mayor + ": Ha sido la Mayor edad digitada.", Toast.LENGTH_SHORT).show();
+            }
+
         }
 
         contador++;

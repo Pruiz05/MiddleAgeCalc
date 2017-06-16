@@ -9,7 +9,7 @@
 
     <string name="point_blank">.</string>
     <string name="Result">Resultado</string>
-    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_menu"> Menu App</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -20,4 +20,12 @@
 
     <string name="dev_email">Pedroluis0542@gmail.com</string>
     <string name="dev_name">Pedro Luis</string>
+
+    <!---->
+    <string name="opt_gallery">Gallery</string>
+    <string name="opt_slideshow">Slideshow</string>
+    <string name="opt_tools">Tools</string>
+    <string name="opt_communicate">Communicate</string>
+    <string name="opt_share">Share</string>
+    <string name="opt_send">Send</string>
 </resources>
